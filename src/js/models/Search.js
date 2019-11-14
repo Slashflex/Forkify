@@ -11,7 +11,7 @@ export default class Search {
             this.result = res.data.recipes;
             //console.log(this.result);
         } catch (error) {
-            alert(error);
+            alert('Sorry but right now you can only search for "pizza", "broccoli" or "bacon" since the Food2fork API will be closed on November 30th 2019. :(');
         }
     }
 }
