@@ -1,23 +1,23 @@
 import { elements } from './base';
-import {Fraction } from 'fractional';
+import { Fraction } from 'fractional';
 
-export const clearRecipe = () =>{
+export const clearRecipe = () => {
     elements.recipe.innerHTML = '';
-}
-
+};
 const formatCount = count => {
     if (count) {
-        const [int, dec] = count.toString().split('.').map(el => parseInt(el, 10));
+        // count = 2.5 --> 5/2 --> 2 1/2
+        // count = 0.5 --> 1/2
+        const newCount = Math.round(count * 10000) / 10000;
+        const [int, dec] = newCount.toString().split('.').map(el => parseInt(el, 10));
 
-        // count = 2.5 --> 2 1/2
-        if (!dec) return count;
-        
-        // count = 0.5 -->  1/2
+        if (!dec) return newCount;
+
         if (int === 0) {
-            const fr = new Fraction(count);
+            const fr = new Fraction(newCount);
             return `${fr.numerator}/${fr.denominator}`;
         } else {
-            const fr = new Fraction(count - int);
+            const fr = new Fraction(newCount - int);
             return `${int} ${fr.numerator}/${fr.denominator}`;
         }
     }
@@ -45,7 +45,6 @@ export const renderRecipe = (recipe, isLiked) => {
                 <span>${recipe.title}</span>
             </h1>
         </figure>
-
         <div class="recipe__details">
             <div class="recipe__info">
                 <svg class="recipe__info-icon">
