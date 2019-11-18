@@ -4,7 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: [
         '@babel/polyfill', 
-        './src/js/index.js'
+        './src/js/index.js',
+        './src/sass/main.scss'
     ],
 
     output: {
@@ -30,5 +31,32 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    module: {
+		rules: [
+			{
+				test: /\.scss$/,
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: 'css/style.css',
+						}
+					},
+					{
+						loader: 'extract-loader'
+					},
+					{
+						loader: 'css-loader?-url'
+					},
+					{
+						loader: 'postcss-loader'
+					},
+					{
+						loader: 'sass-loader'
+					}
+				]
+			}
+		]
+	}
 };
