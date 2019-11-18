@@ -31,7 +31,7 @@ npm run start
 Originally the API used to build this project was [food2fork](https://www.food2fork.com/) but this website will close on 30th November 2019, therefore i had to use a part of this API which i found [here](https://forkify-api.herokuapp.com/), thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann).
 
 ## How does the application work
-Therefore instead of being able to search over 1.000.000 recipes using the Food2fork API, you can now only search with ```pizza```, ```broccoli``` or ```bacon``` words in the app's search bar.
+Instead of being able to search over 1.000.000 recipes using the Food2fork API, you can now only search with ```pizza```, ```broccoli``` or ```bacon``` words in the app's search bar.
 
 If you type in one of the above three words inside the search bar and hit ```search``` or type ```enter``` on keyboard, the datas from the API will be parsed and be returned in the left part of the app:
 
