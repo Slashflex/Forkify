@@ -6,37 +6,25 @@
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Slashflex/Forkify?style=flat-square">
 </p>
 
-> Meal finder app created using ES6 JS, NodeJS, NPM, WebPack, Babel, SASS(scss synthax), 7-1 pattern and BEM methodology.
+> Recipe finder app created using ES6 JS, NodeJS, NPM, WebPack, Babel, Node-SASS(scss synthax), 7-1 pattern and BEM methodology.
 
 ## Install
 
 ```sh
 npm install 
-# This will install node-sass locally based on package.json
+# This will install Dev Dependencies locally based on package.json
+```
+Some dependencies are required to be able to run the project, to install them run:
+```sh
+npm install --save @babel/polyfill axios fractional uniqid
 ```
 
-## Usage (If you want to make modifications to SCSS files)
+## Usage (If you want to make any modifications to files)
 
 ```sh
-npm run compile:sass 
-# This will run a script from package.json which compiles scss files into css
-```
-
-
-```sh
-npm run prefix:css
-# This will add prefix for browser supports to a new file eg.(css/style.prefix.css)
-```
-
-```sh
-npm run compress:css
-# This will compress css/style.prefix.css into css/style.css
-```
-
-```sh
-npm run build:css
-# This will run all of 3 above scripts to run into a single one 
-# (if css files gets deleted, this will regenerate them based on sass folder's files)
+npm run start
+# This will run webpack-dev-server --mode development --open --watch
+# This command will open a new tab on your default web browser and watch for any changes on JS, HTML or SCSS files and reload the page once webpack has done it's job of bundling :D 
 ```
 
 ## Author
@@ -51,5 +39,3 @@ npm run build:css
 ## Show your support
 
 Give a ⭐️ if you liked this project !
-
-***
