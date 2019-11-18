@@ -72,7 +72,7 @@ The liked recipe(s) will then be displayed in the top right corner of the app by
   <img src="https://i.imgur.com/pO7EPIf.png" alt="Liked recipe(s)"/>
 </p>
 
-Note that like recipe(s) are made persistent using ```localStorage()``` so once you liked recipe(s) and reload the page, they will still be showed in the "liked recipe(s)" part of the app.
+Note that liked recipe(s) are made persistent using ```localStorage()``` so once you liked recipe(s) and reload the page, they will still be showed in the "liked recipe(s)" part of the app.
 
 You can also "extract" the ingredients list from a specific recipe and add them to a ```shopping list``` on the right part of the app:
 
