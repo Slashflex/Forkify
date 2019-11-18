@@ -34,22 +34,43 @@ Originally the API used to build this project was [food2fork](https://www.food2f
 Therefore instead of being able to search over 1.000.000 recipes using the Food2fork API, you can now only search with ```pizza```, ```broccoli``` or ```bacon``` words in the app's search bar.
 
 If you type in one of the above three words inside the search bar and hit ```search``` or type ```enter``` on keyboard, the datas from the API will be parsed and be returned in the left part of the app:
-![Parsed results](https://i.imgur.com/uI2lOpt.png)
+
+<p align="center">
+  <img src="https://i.imgur.com/uI2lOpt.png" alt="Parsed results" width="150"/>
+</p>
+
 There is 30 results displayed for each of the three recipe type (```pizza```, ```broccoli``` or ```bacon```), 10 results are displayed per page, so a pagination system is displayed on the bottom to be able to show the differents pages:
-![Pagination](https://i.imgur.com/erR6Wkd.png)
+
+
+<p align="center">
+  <img src="https://i.imgur.com/erR6Wkd.png" alt="Pagination" width="250"/>
+</p>
 
 Once you click on a recipe on the left, it is then displayed in the middle of the screen like so:
-![Recipe](https://i.imgur.com/1cXTL76.png)
+
+<p align="center">
+  <img src="https://i.imgur.com/1cXTL76.png" alt="Recipe" width="300"/>
+</p>
+
 
 Once displayed, you can then update the servings by hovering on ```+``` or ```-```, this will update the ingredients accordingly:
-![Update servings](https://i.imgur.com/FEW128t.png)
+
+<p align="center">
+  <img src="https://i.imgur.com/FEW128t.png" alt="Update servings"/>
+</p>
 
 You can also ```like``` or ```unlike``` recipe(s) by clicking the ```heart button```:
-![Liked](https://i.imgur.com/dq7uuDo.png)
-![Unliked](https://i.imgur.com/522ie7Y.png)
+
+<p align="center">
+  <img src="https://i.imgur.com/dq7uuDo.png" alt="Liked" width="50" height="50"/>
+  <img src="https://i.imgur.com/522ie7Y.png" alt="Unliked" width="52" height="50"/>
+</p>
 
 The liked recipe(s) will then be displayed in the top right corner of the app by hovering on the ```heart shapped icon```:
-![Liked recipe(s)](https://i.imgur.com/pO7EPIf.png)
+
+<p align="center">
+  <img src="https://i.imgur.com/pO7EPIf.png" alt="Liked recipe(s)"/>
+</p>
 
 
 Have fun :D
