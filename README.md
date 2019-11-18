@@ -72,6 +72,21 @@ The liked recipe(s) will then be displayed in the top right corner of the app by
   <img src="https://i.imgur.com/pO7EPIf.png" alt="Liked recipe(s)"/>
 </p>
 
+You can also "extract" the ingredients list from a specific recipe and add them to a ```shopping list``` on the right part of the app:
+
+<p align="center">
+  <img src="https://i.imgur.com/5JXGwS3.png" alt="Add to shopping list"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/e1Msdqb.png" alt="Shopping list"/>
+</p>
+
+Then you will be able to add more or less of the added ingredients or simply delete ingredients one by one:
+
+<p align="center">
+  <img src="https://i.imgur.com/t8iC36e.png" alt="Delete ingredient"/>
+</p>
 
 Have fun :D
 
