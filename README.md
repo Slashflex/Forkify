@@ -27,6 +27,9 @@ npm run start
 # This command will open a new tab on your default web browser and watch for any changes on JS, HTML or SCSS files and reload the page once webpack has done it's job of bundling :D 
 ```
 
+## This project is powered by an API
+Originally the API used to build this project was [food2fork](https://www.food2fork.com/) but this website will close on 30th November 2019, therefore i had to use a part of this API which i found [here](https://forkify-api.herokuapp.com/), thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann).
+
 ## Author
 
 👤 **Slashflex (David)**
@@ -35,7 +38,7 @@ npm run start
 * Github: [@Slashflex](https://github.com/Slashflex)
 
 ## Result can be seen here
-[Forkify]()
+[Forkify](https://forkify-native-es6.netlify.com/)
 ## Show your support
 
 Give a ⭐️ if you liked this project !
