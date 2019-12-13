@@ -61,6 +61,15 @@ body {
   100% {
     transform: rotate(360deg); } }
 
+.heading-2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #F59A83;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  transform: skewY(-3deg); }
+
 .btn {
   padding: 1.3rem 3rem;
   font-size: 1.4rem; }
@@ -290,7 +299,7 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+      background-image: linear-gradient(to right bottom, #FBDB89, #F59A83);
       opacity: .6; }
   .recipe__img {
     width: 100%;
@@ -313,13 +322,13 @@ body {
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
       padding: 1.3rem 2rem;
-      background-image: linear-gradient(to right bottom, #FBDB89, #F48982); }
+      background-image: linear-gradient(to right bottom, #FBDB89, #F59A83); }
   .recipe__details {
     display: flex;
     align-items: center;
     padding: 8rem 3rem 3rem 3rem; }
   .recipe__love {
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    background-image: linear-gradient(to right bottom, #FBDB89, #F59A83);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -361,7 +370,7 @@ body {
       transform: translateY(5px);
       transition: all .4s; }
   .recipe__love {
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    background-image: linear-gradient(to right bottom, #FBDB89, #F59A83);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -436,8 +445,7 @@ body {
   flex-direction: column; }
   .shopping__list {
     list-style: none;
-    max-height: 77rem;
-    overflow: scroll; }
+    max-height: 77rem; }
   .shopping__item {
     display: flex;
     align-items: flex-start;
